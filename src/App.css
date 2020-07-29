@@ -12,7 +12,6 @@
   opacity: 0.9;
   margin-bottom: 1rem;
   color: red;
-
 }
 
 .navbar ul {
@@ -33,9 +32,15 @@
   margin-right: 0.6rem;
 }
 
-
 .chart-wraper {
   margin-left: auto;
   margin-right: auto;
   width: 55em;
+}
+
+body {
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
